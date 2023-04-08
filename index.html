@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact List</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="script/ContactApi.js" defer></script>
+    <script src="script/index.js" defer></script>
+</head>
+
+<body class="body">
+    <form id="contactForm" class="form">
+        <input type="hidden" id="id" class="formInput">
+        <input type="text" id="firstName" class="formInput" placeholder="first name">
+        <input type="text" id="lastName" class="formInput" placeholder="last name">
+        <input type="text" id="phone" class="formInput" placeholder="phone number">
+        <button class="addContBtn" id="addContBtn">Add Contact</button>
+    </form>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Phone</th>
+            <th>Actions</th>
+        </tr>
+
+        <tbody id="contactContainer"></tbody>
+    </table>
+
+</body>
+
+
+
+</html>

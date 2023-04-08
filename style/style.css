@@ -1,0 +1,74 @@
+.body {
+    background-position: inherit;
+    background-image: url(/img/bg1.jpeg);
+    background-repeat: no-repeat;
+    font-size: 24px;
+}
+
+.formInput {
+    width: 120px;
+}
+
+
+.addContBtn {
+    font-size: 0px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    cursor: pointer;
+    margin: 5px;
+    background-image: url(/img/add.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    border-radius: 50px;
+}
+
+.addContBtn:hover {
+    scale: 1.3;
+    transition: 0.2s;
+}
+
+.editBtn {
+    border-radius: 20px;
+    border: none;
+    background-color: ;
+    color: black;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.editBtn:hover {
+    background-color: green;
+    color: aliceblue;
+    transition: 0.5s;
+    scale: 1.1;
+}
+
+.deleteBtn {
+    border-radius: 20px;
+    border: none;
+    background-color: ;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.deleteBtn:hover {
+    background-color: red;
+    color: aliceblue;
+    transition: 0.5s;
+    scale: 1.1;
+}
+
+.callto {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.callto:hover {
+    color: crimson;
+    transition: 0.2s;
+}
